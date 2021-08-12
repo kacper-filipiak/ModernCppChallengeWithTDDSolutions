@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/test.dir/SumDivisibleTest.cpp.o CMakeFiles/test.dir/main.cpp.o -o test   -L/mybuild  -L/gtest/mybuild  -Wl,-rpath,/mybuild:/gtest/mybuild libSumDivisible_lib.a -lpthread -lgmock -lgtest 

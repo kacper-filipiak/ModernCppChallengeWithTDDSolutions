@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSumDivisible_lib.a CMakeFiles/SumDivisible_lib.dir/SumDivisible.cpp.o
+/usr/bin/ranlib libSumDivisible_lib.a
