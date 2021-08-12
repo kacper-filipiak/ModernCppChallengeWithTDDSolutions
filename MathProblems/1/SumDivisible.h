@@ -9,7 +9,7 @@ class SumDivisible
 {
 		std::vector<int> dividors;
 		bool divisibleByNumber(const int&);
-		std::map<int, int> divisibleMap{{0, 0}};
+		std::map<int, int, std::greater<int>> divisibleMap{{0, 0}};
 public:
 		SumDivisible(std::vector<int> vec): dividors(vec){}
 	int get(const int&);
