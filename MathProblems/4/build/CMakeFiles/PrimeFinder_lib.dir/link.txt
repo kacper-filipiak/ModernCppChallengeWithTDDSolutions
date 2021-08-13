@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPrimeFinder_lib.a CMakeFiles/PrimeFinder_lib.dir/PrimeFinder.cpp.o
+/usr/bin/ranlib libPrimeFinder_lib.a

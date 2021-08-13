@@ -1,0 +1,4 @@
+/home/shiro/Kacper/ModernCppChallenges/MathProblems/4/build/CMakeFiles/rebuild_cache.dir
+/home/shiro/Kacper/ModernCppChallenges/MathProblems/4/build/CMakeFiles/edit_cache.dir
+/home/shiro/Kacper/ModernCppChallenges/MathProblems/4/build/CMakeFiles/test.dir
+/home/shiro/Kacper/ModernCppChallenges/MathProblems/4/build/CMakeFiles/PrimeFinder_lib.dir
