@@ -1,0 +1,5 @@
+/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles/rebuild_cache.dir
+/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles/big_number_container_test.dir
+/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles/edit_cache.dir
+/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles/test.dir
+/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles/Pi_lib.dir

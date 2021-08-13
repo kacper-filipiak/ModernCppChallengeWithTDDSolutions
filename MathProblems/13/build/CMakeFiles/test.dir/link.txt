@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -g  -rdynamic CMakeFiles/test.dir/PiTest.cpp.o CMakeFiles/test.dir/main.cpp.o -o test   -L/mybuild  -L/gtest/mybuild  -Wl,-rpath,/mybuild:/gtest/mybuild libPi_lib.a -lpthread -lgmock -lgtest 
