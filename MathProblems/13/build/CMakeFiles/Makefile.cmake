@@ -44,6 +44,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/big_number_container_test.dir/DependInfo.cmake"
+  "CMakeFiles/BinaryEncoder_lib.dir/DependInfo.cmake"
+  "CMakeFiles/BNC_lib.dir/DependInfo.cmake"
   "CMakeFiles/test.dir/DependInfo.cmake"
   "CMakeFiles/Pi_lib.dir/DependInfo.cmake"
   )

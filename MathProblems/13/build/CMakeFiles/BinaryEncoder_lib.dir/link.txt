@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBinaryEncoder_lib.a CMakeFiles/BinaryEncoder_lib.dir/BinaryEncoder.cpp.o
+/usr/bin/ranlib libBinaryEncoder_lib.a

@@ -1,1 +1,1 @@
-/usr/bin/c++  -Wall -g  -rdynamic CMakeFiles/big_number_container_test.dir/PiTest.cpp.o CMakeFiles/big_number_container_test.dir/main.cpp.o -o big_number_container_test   -L/mybuild  -L/gtest/mybuild  -Wl,-rpath,/mybuild:/gtest/mybuild libPi_lib.a -lpthread -lgmock -lgtest 
+/usr/bin/c++  -Wall -g  -rdynamic CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o CMakeFiles/big_number_container_test.dir/main.cpp.o -o big_number_container_test   -L/mybuild  -L/gtest/mybuild  -Wl,-rpath,/mybuild:/gtest/mybuild libBNC_lib.a libBinaryEncoder_lib.a -lpthread -lgmock -lgtest 

@@ -18,8 +18,15 @@ target_link_libraries(test pthread)
 target_link_libraries(test gmock)
 target_link_libraries(test gtest)
 
-add_executable(big_number_container_test ${sources})
-target_link_libraries(big_number_container_test Pi_lib)
+set(bnc_sources
+		BNCTest.cpp
+		main.cpp
+		)
+add_library(BNC_lib BNC.cpp BNC.h)
+add_library(BinaryEncoder_lib BinaryEncoder.cpp BinaryEncoder.h)
+add_executable(big_number_container_test ${bnc_sources})
+target_link_libraries(big_number_container_test BNC_lib)
+target_link_libraries(big_number_container_test BinaryEncoder_lib)
 target_link_libraries(big_number_container_test  pthread)
 target_link_libraries(big_number_container_test  gmock)
 target_link_libraries(big_number_container_test  gtest)

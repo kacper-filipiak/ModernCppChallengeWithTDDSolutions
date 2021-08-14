@@ -64,6 +64,8 @@ CMAKE_BINARY_DIR = /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build
 
 # The main recursive "all" target.
 all: CMakeFiles/big_number_container_test.dir/all
+all: CMakeFiles/BinaryEncoder_lib.dir/all
+all: CMakeFiles/BNC_lib.dir/all
 all: CMakeFiles/test.dir/all
 all: CMakeFiles/Pi_lib.dir/all
 .PHONY : all
@@ -74,6 +76,8 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/big_number_container_test.dir/clean
+clean: CMakeFiles/BinaryEncoder_lib.dir/clean
+clean: CMakeFiles/BNC_lib.dir/clean
 clean: CMakeFiles/test.dir/clean
 clean: CMakeFiles/Pi_lib.dir/clean
 .PHONY : clean
@@ -82,15 +86,16 @@ clean: CMakeFiles/Pi_lib.dir/clean
 # Target rules for target CMakeFiles/big_number_container_test.dir
 
 # All Build rule for target.
-CMakeFiles/big_number_container_test.dir/all: CMakeFiles/Pi_lib.dir/all
+CMakeFiles/big_number_container_test.dir/all: CMakeFiles/BinaryEncoder_lib.dir/all
+CMakeFiles/big_number_container_test.dir/all: CMakeFiles/BNC_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_number_container_test.dir/build.make CMakeFiles/big_number_container_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_number_container_test.dir/build.make CMakeFiles/big_number_container_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles --progress-num=3,4,5 "Built target big_number_container_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles --progress-num=7,8,9 "Built target big_number_container_test"
 .PHONY : CMakeFiles/big_number_container_test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/big_number_container_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/big_number_container_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles 0
 .PHONY : CMakeFiles/big_number_container_test.dir/rule
@@ -105,13 +110,65 @@ CMakeFiles/big_number_container_test.dir/clean:
 .PHONY : CMakeFiles/big_number_container_test.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/BinaryEncoder_lib.dir
+
+# All Build rule for target.
+CMakeFiles/BinaryEncoder_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryEncoder_lib.dir/build.make CMakeFiles/BinaryEncoder_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryEncoder_lib.dir/build.make CMakeFiles/BinaryEncoder_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles --progress-num=3,4 "Built target BinaryEncoder_lib"
+.PHONY : CMakeFiles/BinaryEncoder_lib.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BinaryEncoder_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BinaryEncoder_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles 0
+.PHONY : CMakeFiles/BinaryEncoder_lib.dir/rule
+
+# Convenience name for target.
+BinaryEncoder_lib: CMakeFiles/BinaryEncoder_lib.dir/rule
+.PHONY : BinaryEncoder_lib
+
+# clean rule for target.
+CMakeFiles/BinaryEncoder_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryEncoder_lib.dir/build.make CMakeFiles/BinaryEncoder_lib.dir/clean
+.PHONY : CMakeFiles/BinaryEncoder_lib.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BNC_lib.dir
+
+# All Build rule for target.
+CMakeFiles/BNC_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BNC_lib.dir/build.make CMakeFiles/BNC_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BNC_lib.dir/build.make CMakeFiles/BNC_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles --progress-num=1,2 "Built target BNC_lib"
+.PHONY : CMakeFiles/BNC_lib.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BNC_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BNC_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles 0
+.PHONY : CMakeFiles/BNC_lib.dir/rule
+
+# Convenience name for target.
+BNC_lib: CMakeFiles/BNC_lib.dir/rule
+.PHONY : BNC_lib
+
+# clean rule for target.
+CMakeFiles/BNC_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BNC_lib.dir/build.make CMakeFiles/BNC_lib.dir/clean
+.PHONY : CMakeFiles/BNC_lib.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/test.dir
 
 # All Build rule for target.
 CMakeFiles/test.dir/all: CMakeFiles/Pi_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles --progress-num=6,7,8 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles --progress-num=10,11,12 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -137,7 +194,7 @@ CMakeFiles/test.dir/clean:
 CMakeFiles/Pi_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pi_lib.dir/build.make CMakeFiles/Pi_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pi_lib.dir/build.make CMakeFiles/Pi_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles --progress-num=1,2 "Built target Pi_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles --progress-num=5,6 "Built target Pi_lib"
 .PHONY : CMakeFiles/Pi_lib.dir/all
 
 # Build rule for subdir invocation for target.

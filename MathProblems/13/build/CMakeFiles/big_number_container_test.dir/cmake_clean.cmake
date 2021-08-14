@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/big_number_container_test.dir/PiTest.cpp.o"
-  "CMakeFiles/big_number_container_test.dir/PiTest.cpp.o.d"
+  "CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o"
+  "CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o.d"
   "CMakeFiles/big_number_container_test.dir/main.cpp.o"
   "CMakeFiles/big_number_container_test.dir/main.cpp.o.d"
   "big_number_container_test"

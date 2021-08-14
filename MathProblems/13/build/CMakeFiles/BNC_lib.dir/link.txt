@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBNC_lib.a CMakeFiles/BNC_lib.dir/BNC.cpp.o
+/usr/bin/ranlib libBNC_lib.a

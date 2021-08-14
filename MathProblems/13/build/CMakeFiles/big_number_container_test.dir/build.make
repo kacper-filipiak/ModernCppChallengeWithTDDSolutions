@@ -69,19 +69,19 @@ include CMakeFiles/big_number_container_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/big_number_container_test.dir/flags.make
 
-CMakeFiles/big_number_container_test.dir/PiTest.cpp.o: CMakeFiles/big_number_container_test.dir/flags.make
-CMakeFiles/big_number_container_test.dir/PiTest.cpp.o: ../PiTest.cpp
-CMakeFiles/big_number_container_test.dir/PiTest.cpp.o: CMakeFiles/big_number_container_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/big_number_container_test.dir/PiTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/big_number_container_test.dir/PiTest.cpp.o -MF CMakeFiles/big_number_container_test.dir/PiTest.cpp.o.d -o CMakeFiles/big_number_container_test.dir/PiTest.cpp.o -c /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/PiTest.cpp
+CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o: CMakeFiles/big_number_container_test.dir/flags.make
+CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o: ../BNCTest.cpp
+CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o: CMakeFiles/big_number_container_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o -MF CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o.d -o CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o -c /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/BNCTest.cpp
 
-CMakeFiles/big_number_container_test.dir/PiTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/big_number_container_test.dir/PiTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/PiTest.cpp > CMakeFiles/big_number_container_test.dir/PiTest.cpp.i
+CMakeFiles/big_number_container_test.dir/BNCTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/big_number_container_test.dir/BNCTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/BNCTest.cpp > CMakeFiles/big_number_container_test.dir/BNCTest.cpp.i
 
-CMakeFiles/big_number_container_test.dir/PiTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/big_number_container_test.dir/PiTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/PiTest.cpp -o CMakeFiles/big_number_container_test.dir/PiTest.cpp.s
+CMakeFiles/big_number_container_test.dir/BNCTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/big_number_container_test.dir/BNCTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/BNCTest.cpp -o CMakeFiles/big_number_container_test.dir/BNCTest.cpp.s
 
 CMakeFiles/big_number_container_test.dir/main.cpp.o: CMakeFiles/big_number_container_test.dir/flags.make
 CMakeFiles/big_number_container_test.dir/main.cpp.o: ../main.cpp
@@ -99,16 +99,17 @@ CMakeFiles/big_number_container_test.dir/main.cpp.s: cmake_force
 
 # Object files for target big_number_container_test
 big_number_container_test_OBJECTS = \
-"CMakeFiles/big_number_container_test.dir/PiTest.cpp.o" \
+"CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o" \
 "CMakeFiles/big_number_container_test.dir/main.cpp.o"
 
 # External object files for target big_number_container_test
 big_number_container_test_EXTERNAL_OBJECTS =
 
-big_number_container_test: CMakeFiles/big_number_container_test.dir/PiTest.cpp.o
+big_number_container_test: CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o
 big_number_container_test: CMakeFiles/big_number_container_test.dir/main.cpp.o
 big_number_container_test: CMakeFiles/big_number_container_test.dir/build.make
-big_number_container_test: libPi_lib.a
+big_number_container_test: libBNC_lib.a
+big_number_container_test: libBinaryEncoder_lib.a
 big_number_container_test: CMakeFiles/big_number_container_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shiro/Kacper/ModernCppChallenges/MathProblems/13/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable big_number_container_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/big_number_container_test.dir/link.txt --verbose=$(VERBOSE)

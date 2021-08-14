@@ -130,6 +130,32 @@ big_number_container_test/fast:
 .PHONY : big_number_container_test/fast
 
 #=============================================================================
+# Target rules for targets named BinaryEncoder_lib
+
+# Build rule for target.
+BinaryEncoder_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BinaryEncoder_lib
+.PHONY : BinaryEncoder_lib
+
+# fast build rule for target.
+BinaryEncoder_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryEncoder_lib.dir/build.make CMakeFiles/BinaryEncoder_lib.dir/build
+.PHONY : BinaryEncoder_lib/fast
+
+#=============================================================================
+# Target rules for targets named BNC_lib
+
+# Build rule for target.
+BNC_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BNC_lib
+.PHONY : BNC_lib
+
+# fast build rule for target.
+BNC_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BNC_lib.dir/build.make CMakeFiles/BNC_lib.dir/build
+.PHONY : BNC_lib/fast
+
+#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -154,6 +180,78 @@ Pi_lib: cmake_check_build_system
 Pi_lib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pi_lib.dir/build.make CMakeFiles/Pi_lib.dir/build
 .PHONY : Pi_lib/fast
+
+BNC.o: BNC.cpp.o
+.PHONY : BNC.o
+
+# target to build an object file
+BNC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BNC_lib.dir/build.make CMakeFiles/BNC_lib.dir/BNC.cpp.o
+.PHONY : BNC.cpp.o
+
+BNC.i: BNC.cpp.i
+.PHONY : BNC.i
+
+# target to preprocess a source file
+BNC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BNC_lib.dir/build.make CMakeFiles/BNC_lib.dir/BNC.cpp.i
+.PHONY : BNC.cpp.i
+
+BNC.s: BNC.cpp.s
+.PHONY : BNC.s
+
+# target to generate assembly for a file
+BNC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BNC_lib.dir/build.make CMakeFiles/BNC_lib.dir/BNC.cpp.s
+.PHONY : BNC.cpp.s
+
+BNCTest.o: BNCTest.cpp.o
+.PHONY : BNCTest.o
+
+# target to build an object file
+BNCTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_number_container_test.dir/build.make CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o
+.PHONY : BNCTest.cpp.o
+
+BNCTest.i: BNCTest.cpp.i
+.PHONY : BNCTest.i
+
+# target to preprocess a source file
+BNCTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_number_container_test.dir/build.make CMakeFiles/big_number_container_test.dir/BNCTest.cpp.i
+.PHONY : BNCTest.cpp.i
+
+BNCTest.s: BNCTest.cpp.s
+.PHONY : BNCTest.s
+
+# target to generate assembly for a file
+BNCTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_number_container_test.dir/build.make CMakeFiles/big_number_container_test.dir/BNCTest.cpp.s
+.PHONY : BNCTest.cpp.s
+
+BinaryEncoder.o: BinaryEncoder.cpp.o
+.PHONY : BinaryEncoder.o
+
+# target to build an object file
+BinaryEncoder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryEncoder_lib.dir/build.make CMakeFiles/BinaryEncoder_lib.dir/BinaryEncoder.cpp.o
+.PHONY : BinaryEncoder.cpp.o
+
+BinaryEncoder.i: BinaryEncoder.cpp.i
+.PHONY : BinaryEncoder.i
+
+# target to preprocess a source file
+BinaryEncoder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryEncoder_lib.dir/build.make CMakeFiles/BinaryEncoder_lib.dir/BinaryEncoder.cpp.i
+.PHONY : BinaryEncoder.cpp.i
+
+BinaryEncoder.s: BinaryEncoder.cpp.s
+.PHONY : BinaryEncoder.s
+
+# target to generate assembly for a file
+BinaryEncoder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryEncoder_lib.dir/build.make CMakeFiles/BinaryEncoder_lib.dir/BinaryEncoder.cpp.s
+.PHONY : BinaryEncoder.cpp.s
 
 Pi.o: Pi.cpp.o
 .PHONY : Pi.o
@@ -184,7 +282,6 @@ PiTest.o: PiTest.cpp.o
 
 # target to build an object file
 PiTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_number_container_test.dir/build.make CMakeFiles/big_number_container_test.dir/PiTest.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/PiTest.cpp.o
 .PHONY : PiTest.cpp.o
 
@@ -193,7 +290,6 @@ PiTest.i: PiTest.cpp.i
 
 # target to preprocess a source file
 PiTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_number_container_test.dir/build.make CMakeFiles/big_number_container_test.dir/PiTest.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/PiTest.cpp.i
 .PHONY : PiTest.cpp.i
 
@@ -202,7 +298,6 @@ PiTest.s: PiTest.cpp.s
 
 # target to generate assembly for a file
 PiTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_number_container_test.dir/build.make CMakeFiles/big_number_container_test.dir/PiTest.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/PiTest.cpp.s
 .PHONY : PiTest.cpp.s
 
@@ -241,9 +336,20 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... BNC_lib"
+	@echo "... BinaryEncoder_lib"
 	@echo "... Pi_lib"
 	@echo "... big_number_container_test"
 	@echo "... test"
+	@echo "... BNC.o"
+	@echo "... BNC.i"
+	@echo "... BNC.s"
+	@echo "... BNCTest.o"
+	@echo "... BNCTest.i"
+	@echo "... BNCTest.s"
+	@echo "... BinaryEncoder.o"
+	@echo "... BinaryEncoder.i"
+	@echo "... BinaryEncoder.s"
 	@echo "... Pi.o"
 	@echo "... Pi.i"
 	@echo "... Pi.s"
