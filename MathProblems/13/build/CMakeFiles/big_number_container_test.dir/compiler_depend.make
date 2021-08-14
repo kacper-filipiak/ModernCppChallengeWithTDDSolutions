@@ -380,7 +380,8 @@ CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o: ../BNCTest.cpp \
   ../BNC.h \
   /usr/include/c++/11.1.0/deque \
   /usr/include/c++/11.1.0/bits/stl_deque.h \
-  /usr/include/c++/11.1.0/bits/deque.tcc
+  /usr/include/c++/11.1.0/bits/deque.tcc \
+  ../BinaryEncoder.h
 
 CMakeFiles/big_number_container_test.dir/main.cpp.o: ../main.cpp \
   /usr/include/stdc-predef.h \
@@ -957,6 +958,8 @@ CMakeFiles/big_number_container_test.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11.1.0/tr1/bessel_function.tcc:
 
 /usr/include/c++/11.1.0/ext/new_allocator.h:
+
+../BinaryEncoder.h:
 
 /usr/include/bits/types/__sigval_t.h:
 

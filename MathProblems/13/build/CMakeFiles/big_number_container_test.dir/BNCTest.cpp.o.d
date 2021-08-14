@@ -275,4 +275,5 @@ CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o: \
  /usr/include/gmock/gmock-nice-strict.h \
  /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/BNC.h \
  /usr/include/c++/11.1.0/deque /usr/include/c++/11.1.0/bits/stl_deque.h \
- /usr/include/c++/11.1.0/bits/deque.tcc
+ /usr/include/c++/11.1.0/bits/deque.tcc \
+ /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/BinaryEncoder.h

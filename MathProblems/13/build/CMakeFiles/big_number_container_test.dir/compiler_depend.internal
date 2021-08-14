@@ -382,6 +382,7 @@ CMakeFiles/big_number_container_test.dir/BNCTest.cpp.o
  /usr/include/c++/11.1.0/deque
  /usr/include/c++/11.1.0/bits/stl_deque.h
  /usr/include/c++/11.1.0/bits/deque.tcc
+ /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/BinaryEncoder.h
 
 CMakeFiles/big_number_container_test.dir/main.cpp.o
  /home/shiro/Kacper/ModernCppChallenges/MathProblems/13/main.cpp
